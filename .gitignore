@@ -1,0 +1,102 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# PyTorch & Checkpoints
+# ----------------------------------------
+*.pt
+*.pth
+*.ckpt
+
+# MMSegmentation Work Directories
+work_dirs/
+outputs/
+logs/
+
+# Model training crash logs
+*.log
+*.err
+
+# ----------------------------------------
+# Data & Datasets
+# ----------------------------------------
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Images generated during analysis
+*.png
+*.jpg
+*.jpeg
+
+# ----------------------------------------
+# MMCV / MMSeg related extra files
+# ----------------------------------------
+*__pycache__/
+*.cache/
+build/
+dist/
+*.egg-info/
+
+# ----------------------------------------
+# TensorBoard
+# ----------------------------------------
+runs/
+events.out.tfevents.*
+
+# ----------------------------------------
+# IDE
+# ----------------------------------------
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+
+# ----------------------------------------
+# System Files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# LaTeX Outputs (since you export the report)
+# ----------------------------------------
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# ----------------------------------------
+# Python cache & build
+# ----------------------------------------
+*.egg
+*.egg-info
+.eggs/
+pip-wheel-metadata/
+__pycache__/
+*.pytest_cache/
